@@ -24,7 +24,7 @@ const Jumbotron = () => {
 					<button className="button">Buy</button>
 				</li>
 				<li>
-					<a href="#" className="link" onClick={handleLearnMore}>
+					<a className="link" onClick={handleLearnMore}>
 						Learn more
 					</a>
 				</li>

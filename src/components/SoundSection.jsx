@@ -4,7 +4,7 @@ const SoundSection = () => {
 	const handleLearnMore = () => {
 		const element = document.querySelector(".display-section");
 		window.scrollTo({
-			top: element?.getBoundingClientRect().top,
+			top: element?.getBoundingClientRect().bottom,
 			left: 0,
 			behavior: "smooth",
 		});
@@ -23,7 +23,7 @@ const SoundSection = () => {
 							<button className="button">Buy</button>
 						</li>
 						<li>
-							<a href="#" className="link">
+							<a className="link" onClick={handleLearnMore}>
 								Learn more
 							</a>
 						</li>
